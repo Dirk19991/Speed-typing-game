@@ -3,7 +3,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Speed typer</title>
+    <title>Тренажер скорости печати</title>
     <link rel="stylesheet" href="style.css" />
     <link
       rel="stylesheet"
@@ -22,28 +22,28 @@
     <div id="settings" class="settings">
       <form id="settings-form">
         <div>
-          <label for="diffuculty">Difficulty</label>
-          <select id="diffuculty">
-            <option value="easy">Easy</option>
-            <option value="medium">Medium</option>
-            <option value="hard">Hard</option>
+          <label for="difficulty">Сложность</label>
+          <select id="difficulty">
+            <option value="easy">Легко</option>
+            <option value="medium">Средне</option>
+            <option value="hard">Тяжело</option>
           </select>
         </div>
       </form>
     </div>
 
     <div class="container">
-      <h2>Speed typer</h2>
-      <small>Type the following:</small>
+      <h2>Тренажер скорости печати</h2>
+      <small>Слово:</small>
       <h1 id="word"></h1>
       <input
         type="text"
         id="text"
         autocomplete="off"
-        placeholder="Type the word here"
+        placeholder="Напечатайте слово"
       />
-      <p class="time-container">Time left: <span id="time">10s</span></p>
-      <p class="score-container">Score: <span id="score">0</span></p>
+      <p class="time-container">Осталось времени: <span id="time">10с</span></p>
+      <p class="score-container">Счет: <span id="score">0</span></p>
       <div id="end-game-container" class="end-game-container"></div>
     </div>
   </body>
